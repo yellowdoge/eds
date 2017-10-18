@@ -36,6 +36,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <eds/macros.h>
 #include <eds/edid.h>
 #include <eds/hdmi.h>
 #include <eds/cea861.h>
@@ -828,4 +829,3 @@ out:
 
     return rv;
 }
-
